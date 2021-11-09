@@ -11,7 +11,7 @@
 	</target>
 	
 	<target name="compress" depends="compile">
-	        <jar destfile="jarfiles/Devops.jar" basedir="classes" />
+	        <jar destfile="jarfiles/batch5.jar" basedir="classes" />
 	</target>
 	
 	<target name="execute" depends="compile">
